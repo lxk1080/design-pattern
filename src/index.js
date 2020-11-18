@@ -1,20 +1,3 @@
+const a = new Set([1,2,3,2,3,5,3,6]);
 
-const destor = (t, n, d) => {
-  console.log(t);
-  console.log(n);
-  console.log(d);
-  return d;
-};
-
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-
-  @destor
-  getName() {
-    return this.name;
-  }
-}
-
-console.log(new Person('haha').getName());
+console.log(a.entries());
